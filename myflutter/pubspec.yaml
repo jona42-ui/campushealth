@@ -31,6 +31,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_form_builder: ^7.7.0
+  fluttertoast: ^8.1.2
+
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -60,7 +63,12 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - assets/images/1.png
+    - assets/images/2.png
+    - assets/images/3.png
+    - assets/images/4.png
+    - assets/images/5.png
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
